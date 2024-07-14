@@ -46,6 +46,22 @@ class LineLogic:
     def get_palindrome_links(start,stop):
         return list(zip(range(start,stop+1), range(start,stop+1,-1)))
 
+
+    @staticmethod
+    def restrict_links(links, start,stop):
+        key_to_pop = []
+        for key in links:
+            if key>stop:
+                key_to_pop.append(key)
+        for key in key_to_pop:
+            links.pop(key)
+        for key,item in links.items():
+            stock=[]
+            for elt in item:
+                if elt<start or elt>stop:
+                    stock.append(elt)
+            item.difference_update(stock)
+
     def create_generator(self, start, length):
         stop = start + length-1
 
@@ -56,9 +72,8 @@ class LineLogic:
             self.add_links_static(same_links,i,j)
 
 
-        for key in range(stop+1,11):
-            same_links.pop(key)
-            diff_links.pop(key)
+        self.restrict_links(same_links, start,stop)
+        self.restrict_links(diff_links, start, stop)
         all_nodes = set()
         generation_L = []
         for i in range(start,stop+1):
@@ -69,7 +84,6 @@ class LineLogic:
             same_links[i].add(i)
             generation_L.append(same_links[i])
         numbers = [1,2,3,4,5,6,7,8,9]
-        print(generation_L)
         dico = get_mask(generation_L)
         mask = [1000]* length
         for key,item in dico.items():
@@ -80,8 +94,9 @@ class LineLogic:
                 real_number = [number[index] for index in mask]
                 is_stopped = False
                 for node,neighbors in diff_links.items():
+                    if is_stopped:
+                        break
                     for neighbor in neighbors:
-                        print(node, start,neighbor)
                         if real_number[node-start] == real_number[neighbor-start]:
                             is_stopped=True
                             break
@@ -116,3 +131,6 @@ def line_8_zones(line_logic: LineLogic):
 if __name__ == "__main__":
     line = LineLogic()
     line_8_zones(line)
+    gen = line.create_generator(0,3)
+    for elt in gen:
+        print(elt)
