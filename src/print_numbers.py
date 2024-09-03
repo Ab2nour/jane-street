@@ -11,13 +11,18 @@ def palindrom():
             break
         str_a = str(a)
 
-        if a > 10**6:
-            if str_a[::-1] == str_a:
-                if str_a[0] == str_a[1]:
-                    if str_a[0] in ("1", "3", "7", "9"):
-                        if str_a[2] in ("1", "3", "7", "9"):
-                            if str_a[1] != str_a[2]:
-                                print(a)
+        if str_a[::-1] == str_a:
+            print(a)
+
+        # if a > 10**6:
+        #     if str_a[::-1] == str_a:
+                # if str_a[0] == str_a[1]:
+                #     if str_a[0] in ("1", "3", "7", "9"):
+                #         if str_a[2] in ("1", "3", "7", "9"):
+                #             if str_a[1] != str_a[2]:
+                #                 print(a)
+
+    print("0===================")
     for i in range(300):
         if 10_000 > 88 * i >= 1000:
             if str(88 * i)[0] in ("1", "9"):
