@@ -11,16 +11,16 @@ def palindrom():
             break
         str_a = str(a)
 
-        if str_a[::-1] == str_a:
-            print(a)
+        # if str_a[::-1] == str_a:
+        #     print(a)
 
-        # if a > 10**6:
-        #     if str_a[::-1] == str_a:
-                # if str_a[0] == str_a[1]:
-                #     if str_a[0] in ("1", "3", "7", "9"):
-                #         if str_a[2] in ("1", "3", "7", "9"):
-                #             if str_a[1] != str_a[2]:
-                #                 print(a)
+        if a > 10**6:
+            if str_a[::-1] == str_a:
+                if str_a[0] == str_a[1]:
+                    if str_a[0] in ("1", "3", "7", "9"):
+                        if str_a[2] in ("1", "3", "7", "9"):
+                            if str_a[1] != str_a[2]:
+                                print(a)
 
     print("0===================")
     for i in range(300):
@@ -80,3 +80,10 @@ def palindrom():
                 if str(37 * i)[2:4] in ("66", "88"):
                     print(37 * i)
 
+def print_carres():
+    print("-------------------- carrés --------------------")
+    for i in range(100):
+        print(i**2)
+
+palindrom()
+print_carres()

@@ -148,21 +148,27 @@ Le plus petit palindrome multiple de 23 est 161, de longueur 3. Donc les nombres
 ![[Pasted image 20240714180014.png]]
 ![[Pasted image 20240715092239.png]]
 
-Cases blanches :
 
+### Couleurs 
+
+#### Cases blanches
+
+- 1
 - 2
 - 3
 - 4
+- 5
 - 6
 - 7
 - 9
 - 10
+- 11
 
-Cases noires :
+#### Cases noires
 
 - 8
 
-Premiers :
+### Premiers
 
 - 161
 - 414

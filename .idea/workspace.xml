@@ -4,37 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be651e0c-1fe9-4717-ac74-810d8ad5c77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/3/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/3/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/9/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/9/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/9/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/9/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/3/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/3/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/4/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/4/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/7/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/7/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/7/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/7/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/7/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/8/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/8/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/8/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/8/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/8/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/8/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/8/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/8/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/8/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/9/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/9/2.png" afterDir="false" />
+    <list default="true" id="be651e0c-1fe9-4717-ac74-810d8ad5c77b" name="Changes" comment="feat: update proof file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jane Street.md" beforeDir="false" afterPath="$PROJECT_DIR$/Jane Street.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ab2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/print_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/print_numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +47,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-6\8" />
+      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-6" />
+      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-8\1" />
       <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-8\8" />
       <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-8\7" />
-      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-10\9" />
-      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-10\3" />
-      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-7\9" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -92,8 +64,16 @@
       <updated>1720966596217</updated>
       <workItem from="1720966598097" duration="182000" />
       <workItem from="1720966802489" duration="186000" />
-      <workItem from="1725372230737" duration="7968000" />
+      <workItem from="1725372230737" duration="10614000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: update proof file">
+      <created>1725380553836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725380553836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: update proof file" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update proof file" />
   </component>
 </project>
