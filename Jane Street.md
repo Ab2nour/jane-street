@@ -120,6 +120,14 @@ Or $7 / 2 = 3.5$ donc ce n'est pas possible.
 
 Donc cette case ne peut pas être noire.
 
+## Ligne 6 (prime raised to a prime power)
+
+Un nombre ne peut finir par 0 sur cette ligne
+
+En effet, s'il finit par 0, il est divisible par 10 = 5 x 2
+
+Donc il ne répond pas à la définition "prime raised to a prime power", puisque chaque nombre doit être un produit de n fois le même nombre (avec n premier), et pas deux nombres distincts.
+
 ## Ligne 5 (Fibonacci)
 
 ### Premiers
@@ -245,6 +253,31 @@ et il n'y a aucun nombre de la forme a bb multiple de 37 (cf la table des multip
 
 donc (7, 4) est blanche
 
+### Case (7, 5)
+
+todo
+
+![img.png](img/cells/black-cells/line-7/5/img.png)
+
+### Case (7, 6)
+
+todo
+
+![todo.png](img/cells/black-cells/line-7/6/todo.png)
+
+### Case (7, 7)
+
+Supposons la case noire
+
+![img.png](img/cells/black-cells/line-7/7/img.png)
+
+![img.png](img/cells/black-cells/line-7/7/img1.png)
+
+Il n'y a aucun multiple de 37 de longueur 3 qui finisse par 66 ou 88 autre que 666 et 888 (donc ça ne respecte pas la contrainte de la forme abb ici)
+
+Il n'y a aucun multiple de 37 de longueur 4 qui finisse par 666 ou 888.
+
+Donc (7, 7) est blanche
 
 ### Case (7, 8)
 

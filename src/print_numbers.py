@@ -151,10 +151,60 @@ def print_88():
     print("----- (10, 6) noire")
     for i in range(10_000):
         if 100_000 > 88 * i >= 1_000:
-            if str(88 * i)[-1] == str(88 * i)[-2] and str(88 * i)[-3] == str(88 * i)[-4]:
+            if str(88 * i)[-1] == str(88 * i)[-2] and str(88 * i)[-3] == str(88 * i)[
+                -4]:
                 print(88 * i)
+
+
+def print_37():
+    print("-------------------- multiple 37 --------------------")
+    print("----- (7, 5) noire (côté droit)")
+    for i in range(10_000):
+        multiple = 37 * i
+        str_i = str(multiple)
+        if 1_000_000 > multiple >= 10_000:
+            if str_i[0] == str_i[1] and str_i[3:5] in ("66", "88") and str_i[0] in ("1", "3", "7", "9"):
+                print(str_i)
+
+    print("----- (7, 6) noire (côté gauche)")
+    for i in range(10_000):
+        multiple = 37 * i
+        if 100_000 > multiple >= 1_000:
+            str_i = str(multiple)
+            if str_i[-1] == str_i[-2] == str_i[-3] == str_i[-4]:
+                print(str_i)
+
+    print("----- (7, 6) noire (côté droit)")
+    for i in range(10_000):
+        multiple = 37 * i
+        str_i = str(multiple)
+        if 10_000 > multiple >= 1_000:
+            if str_i[0] == "7" and str_i[-2:] in ("66", "88"):
+                print(str_i)
+        if 100_000 > multiple >= 10_000:
+            if str_i[0] == "7" and str_i[-3:-1] in ("66", "88"):
+                print(str_i)
+
+    print("----- (7, 7) noire (côté droit)")
+    for i in range(1_000):
+        multiple = 37 * i
+        if 10_000 > multiple >= 1_000:
+            str_i = str(multiple)
+            if str_i[-1] == str_i[-2] == str_i[-3]:
+                print(str_i)
+
+    for i in range(1, 10):
+        multiple = 1000 * i + 666
+        print(multiple)
+        if multiple % 37 == 0:
+            print(multiple)
+        multiple = 1000 * i + 888
+        if multiple % 37 == 0:
+            print(multiple)
+
 
 palindrom()
 # print_carres()
 print_fibo()
 print_88()
+print_37()

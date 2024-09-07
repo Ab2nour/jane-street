@@ -4,50 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be651e0c-1fe9-4717-ac74-810d8ad5c77b" name="Changes" comment="feat: update proof file">
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-1/4/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/11/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/11/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/11/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/7/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/7/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/7/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/8/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/8/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-10/8/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/3/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/4/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/5/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/6/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/6/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/6/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/7/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/7/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/7/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/7/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/7/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/7/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/7/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/7/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/7/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/8/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/8/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-11/9/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-6/8/todo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/4/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/4/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/4/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/4/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/4/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/6/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/6/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/6/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/6/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-8/6/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/grid-two-green-columns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_1.png" afterDir="false" />
+    <list default="true" id="be651e0c-1fe9-4717-ac74-810d8ad5c77b" name="Changes" comment="feat: update proof file &amp; img">
+      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/5/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/6/todo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/7/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/7/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nombre_premiers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jane Street.md" beforeDir="false" afterPath="$PROJECT_DIR$/Jane Street.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/print_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/print_numbers.py" afterDir="false" />
@@ -56,6 +18,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -92,11 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-7\5" />
+      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-7\7" />
+      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-1\8" />
       <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-1\4" />
       <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-1" />
-      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img" />
-      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-11\7" />
-      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-11\9" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -112,7 +81,7 @@
       <workItem from="1725372230737" duration="10783000" />
       <workItem from="1725470578936" duration="21000" />
       <workItem from="1725662967673" duration="6215000" />
-      <workItem from="1725714860120" duration="6674000" />
+      <workItem from="1725714860120" duration="14444000" />
     </task>
     <task id="LOCAL-00001" summary="feat: update proof file">
       <created>1725380553836</created>
@@ -128,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725383138875</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: update proof file &amp; img">
+      <created>1725726216370</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725726216370</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: update proof file" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update proof file" />
+    <MESSAGE value="feat: update proof file &amp; img" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update proof file &amp; img" />
   </component>
 </project>
