@@ -81,7 +81,7 @@
       <workItem from="1725372230737" duration="10783000" />
       <workItem from="1725470578936" duration="21000" />
       <workItem from="1725662967673" duration="6215000" />
-      <workItem from="1725714860120" duration="14444000" />
+      <workItem from="1725714860120" duration="14457000" />
     </task>
     <task id="LOCAL-00001" summary="feat: update proof file">
       <created>1725380553836</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725726216370</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: update proof file &amp; img">
+      <created>1725743448588</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725743448588</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
