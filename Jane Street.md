@@ -27,6 +27,16 @@ The answer to this month’s puzzle is the sum of all the numbers formed in the 
 ## Numéros lignes & colonnes 
 ![[Pasted image 20240714120821.png]]
 
+# Etat actuel
+
+## Sans chiffres
+
+![img.png](img/img0.png)
+
+## Avec chiffres
+
+![img.png](img/img_1.png)
+
 # Carrés noirs
 
 ## Colonne 2 et 10
@@ -37,22 +47,38 @@ Impossible d'en mettre dans la zone rouge, car il faut des nombres d'au moins 2 
 
 ## Ligne 1 (square)
 
+### Case (1, 3)
+
+Même raisonnement que (1, 9)
+
 ### Case (1, 9)
 
-![[Pasted image 20240715092850.png]]
+![](img/ideas/Pasted image 20240715092850.png)
 
 Il faudrait un carré à 2 chiffres identiques.
 Or les carrés à 2 chiffres sont 16, 25, 36, 49, 64, 81.
 
 Donc cette case ne peut être noire.
 
-![[Pasted image 20240715092948.png]]
+### Case (1, 4)
 
-### Case (1, 3)
+Supposons la case noire
 
-Même raisonnement que (1, 9)
+![img_1.png](img/cells/black-cells/line-1/4/img_1.png)
 
-![[Pasted image 20240715093106.png]]
+à gauche il faudrait soit un carré de la forme aa, soit de la forme aaa
+
+Or il n'en existe aucun
+
+donc (1, 4) est blanche
+
+### Case (1, 8)
+
+cf (1, 4)
+
+![img.png](img/cells/black-cells/line-1/8/img.png)
+
+donc (1, 8) est blanche
 
 ### Carrés de la forme abb
 
@@ -64,21 +90,99 @@ Même raisonnement que (1, 9)
 
 ## Ligne 2 (1 more than a palindrome)
 
-todo
+### Exemples
+
+Attention 1000 = 999 + 1, 999 étant un palindrome
 
 
 ## Ligne 4 (sum of digits is 7)
 
+### chiffres 8 et 9
+
+On ne peut pas avoir les chiffres 8 ou 9 sur cette ligne
+
+de même pour les cases (2, 2) à (5, 2) du coup, vu qu'elles partagent une zone blanche en commun
+
+### Case (4, 8)
+
+cf (4,9)
+
+soit 2x = 7
+soit 3x = 7
+aucune solution entière pour x
+
 ### Case (4, 9)
 
-![[Pasted image 20240715092633.png]]
+![](img/ideas/Pasted image 20240715092633.png)
 
 Il faudrait un nombre à 2 chiffres identiques dont la somme vaut 7.
 Or $7 / 2 = 3.5$ donc ce n'est pas possible.
 
 Donc cette case ne peut pas être noire.
 
-![[Pasted image 20240715092746.png]]
+## Ligne 5 (Fibonacci)
+
+### Premiers
+
+liste complète 
+
+<https://r-knott.surrey.ac.uk/Fibonacci/fibtable.html>
+
+de 0 à 40 ici : (ceux non inclus ici intéressants : 40 à 54 sur le site pour longueur 11 max)
+
+- 0
+- 1
+- 1
+- 2
+- 3
+- 5
+- 8
+- 13
+- 21
+- 34
+- 55
+- 89
+- 144
+- 233
+- 377
+- 610
+- 987
+- 1597
+- 2584
+- 4181
+- 6765
+- 10946
+- 17711
+- 28657
+- 46368
+- 75025
+- 121393
+- 196418
+- 317811
+- 514229
+- 832040
+- 1346269
+- 2178309
+- 3524578
+- 5702887
+- 9227465
+- 14930352
+- 24157817
+- 39088169
+- 63245986
+- 102334155
+
+#### qui finissent par 6
+
+- 10946
+- 63245986
+
+#### qui finissent par 8
+
+- 8
+- 46368
+- 196418
+- 3524578
 
 ## Ligne 7 (multiple 37)
 
@@ -117,12 +221,36 @@ Donc cette case ne peut pas être noire.
 - 962
 - 999
 
+### Case (7, 4)
+
+Supposons la case noire
+
+![img.png](img/cells/black-cells/line-7/4/img.png)
+
+Soit (7, 1) est noire
+
+![img_1.png](img/cells/black-cells/line-7/4/img_1.png)
+
+![img_2.png](img/cells/black-cells/line-7/4/img_2.png)
+
+Mais aucun multiple de 37 de longueur 2 est composé de 2 fois le même chiffre
+
+donc (7, 1) serait blanche
+
+![img_3.png](img/cells/black-cells/line-7/4/img_3.png)
+
+![img_4.png](img/cells/black-cells/line-7/4/img_4.png)
+
+et il n'y a aucun nombre de la forme a bb multiple de 37 (cf la table des multiples de longueur 3 plus haut)
+
+donc (7, 4) est blanche
+
+
 ### Case (7, 8)
 
 ![img_8.png](img/cells/black-cells/line-8/8/img_8.png)
 
-(8, 8) est noire, et le plus petit nombre compatible est de taille 3
-
+(8, 8) est noire
 
 ### Case (7, 9)
 
@@ -178,6 +306,13 @@ Le plus petit palindrome multiple de 23 est 161, de longueur 3. Donc les nombres
 - 1771
 - 4554
 - 7337
+
+longueur 7 avec la forme attendue :
+
+- 3375733
+- 7714177
+- 7796977
+- 9970799
 
 ### Case (8, 1)
 
@@ -364,7 +499,7 @@ Longueur 3 :
 
 - 
 
-### Case 9, 8)
+### Case (9, 8)
 
 ![img_8.png](img/cells/black-cells/line-8/8/img_8.png)
 
@@ -410,6 +545,32 @@ alors il reste 2 cases à gauche, donc il faudrait mettre un multiple de 88 de l
 
 Cette case ne peut pas être noire.
 
+### Case (10, 7)
+
+![img.png](img/cells/black-cells/line-10/7/img.png)
+
+![img_1.png](img/cells/black-cells/line-10/7/img_1.png)
+
+![img_2.png](img/cells/black-cells/line-10/7/img_2.png)
+
+Aucun multiple de 88 n'est de la forme aaab avec a = 1 ou a = 9
+
+donc (10, 7 est blanche)
+
+### Case (10, 8)
+
+Supposons la case noire
+
+![img.png](img/cells/black-cells/line-10/8/img.png)
+
+![img_1.png](img/cells/black-cells/line-10/8/img_1.png)
+
+![img_2.png](img/cells/black-cells/line-10/8/img_2.png)
+
+aucun multiple de 88 de longueur 3 ne commence par "11" ou "99"
+
+donc (10, 8) est blanche
+
 ### Case (10, 9)
 
 ![img.png](img/cells/black-cells/line-10/9/1.png)
@@ -420,6 +581,26 @@ Même raisonnement que la case (10, 3).
 ![[Pasted image 20240714180630.png]]
 
 Cette case ne peut pas être noire.
+
+### Case (10, 11)
+
+Supposons (10, 11) noire
+
+![img.png](img/cells/black-cells/line-10/11/img.png)
+
+Utilisons les cases (8, 9) à (8, 11)
+
+Il ne peut y avoir que 161 et 989 (forme aba et 1 3 7 9 de la ligne 9)
+
+![img_1.png](img/cells/black-cells/line-10/11/img_1.png)
+
+![img_2.png](img/cells/black-cells/line-10/11/img_2.png)
+
+on aurait alors un multiple de 88 qui finit par 1 ou 9
+
+sachant que 88 = 44 x 2, on aurait un multiple de 2 qui finit par 1 ou 9 => contradiction
+
+Donc (10, 11) est blanche
 
 ### Case (10, 4)
 
@@ -459,44 +640,150 @@ S'il n'existe aucun multiple de 88 finissant par 3 fois le même nombre, de long
 
 ### Case (11, 3)
 
-![[Pasted image 20240715093214.png]]
+Supposons la case noire
+
+![img_3.png](img/cells/black-cells/line-11/3/img_3.png)
 
 Il nous faudrait 1 de moins qu'un palindrome, de longueur 2, avec 2 chiffres égaux... On a une contradiction.
 
-Cette case ne peut être noire.
-
-![[Pasted image 20240715093309.png]]
+(11, 3) est blanche
 
 ### Case (11, 4)
 
-![[Pasted image 20240715094206.png]]
+![img.png](img/cells/black-cells/line-11/4/img.png)
 
 Il nous faudrait 1 de moins qu'un palindrome, de longueur 3, avec 3 chiffres égaux, contradiction.
 
-Cette case ne peut être noire.
+Ou alors de longueur 2 si on suppose (11, 1) noire. Cela revient au même, impossible
 
-![[Pasted image 20240715094229.png]]
+(11, 4) est blanche
 
 ### Case (11, 5)
 
-Idem que (11, 4)
+![img.png](img/cells/black-cells/line-11/5/img.png)
 
-![[Pasted image 20240715094258.png]]
+palindrome - 1 de longueur 3 ou 4, avec tous les chiffres identiques
+
+impossible
+
+(11, 5) est blanche
+
 
 ### Case (11, 6)
 
-Idem que (11, 4)
+Supposons (11, 6) noire
+
+![img.png](img/cells/black-cells/line-11/6/img.png)
+
+Soit (11, 1) est noire, soit (11, 3) est noire (ou exclusif)
+
+(11, 3) noire
+
+![img_1.png](img/cells/black-cells/line-11/6/img_1.png)
+
+palindrome - 1 de longueur 2 de la forme aa, impossible
+
+(11, 1) noire
+
+![img_2.png](img/cells/black-cells/line-11/6/img_2.png)
+
+palindrome - 1 de la forme aaaa, impossible
+
+(11, 6) est blanche
+
+
 
 ### Case (11, 8)
 
-![[Pasted image 20240715100225.png]]
+Dépendances
+- de (11, 3) à (11, 5) blanches
 
-Je pense qu'on arrive à une contradiction
+Supposons (11, 8) noire
 
-Car le nombre à gauche serait de la forme
-a aaa abb
+![img.png](img/cells/black-cells/line-11/8/img.png)
 
-Ce qui ne pourrait pas être un "palindrome - 1"
+![img_1.png](img/cells/black-cells/line-11/8/img_1.png)
+
+de 1 à 7
+
+ou de 2 à 7
+
+on aurait une structure
+
+aaaa bb ou aaaaa bb, les palindromes sous-jacents seraient aaaa ba ou aaaaa ba
+
+dans les deux cas, ce n'est pas une forme de palindrome valide
+
+donc (11, 8) est blanche
+
+### Case (11, 7)
+
+dépendances :
+- (11, 2) à (11, 10) sauf (11, 7)
+
+Elle pourrait être noire (les deux côtés en résultant donnent des positions valides)
+
+Supposons (11, 7) blanche
+
+![img.png](img/cells/black-cells/line-11/7/img.png)
+
+4 cas :
+
+1) (11, 1) blanche et (11, 11) blanche
+2) (11, 1) blanche et (11, 11) noire
+3) (11, 1) noire et (11, 11) blanche
+4) (11, 1) noire et (11, 11) noire
+
+#### cas 1, (11, 1) blanche et (11, 11) blanche
+
+![img_1.png](img/cells/black-cells/line-11/7/img_1.png)
+
+![img_2.png](img/cells/black-cells/line-11/7/img_2.png)
+
+structure de palindrome impossible
+
+#### cas 2, (11, 1) blanche et (11, 11) noire
+
+![img_3.png](img/cells/black-cells/line-11/7/img_3.png)
+
+![img_4.png](img/cells/black-cells/line-11/7/img_4.png)
+
+structure de palindrome impossible
+
+#### cas 3, (11, 1) noire et (11, 11) blanche
+
+![img_5.png](img/cells/black-cells/line-11/7/img_5.png)
+
+![img_6.png](img/cells/black-cells/line-11/7/img_6.png)
+
+structure de palindrome impossible
+
+#### cas 4, (11, 1) noire et (11, 11) noire
+
+![img_7.png](img/cells/black-cells/line-11/7/img_7.png)
+
+![img_8.png](img/cells/black-cells/line-11/7/img_8.png)
+
+structure de palindrome impossible
+
+Aucun cas ne marche, donc (11, 7) est noire
+
+### Case (11, 9)
+
+dépendances :
+- (11, 3) à (11, 6), et (11, 8)
+
+Supposons (11, 9) noire
+
+![img.png](img/cells/black-cells/line-11/9/img.png)
+
+de 1 à 8 ou de 2 à 8 on a 5a 3b ou 4a 3b
+
+palindromes sous-jacents 5a 2b a ou 4a 2b a
+
+pas une forme de palindrome valide
+
+donc (11, 9) est blanche
 
 ## Maximum de carrés noirs
 
@@ -515,7 +802,7 @@ Exemple :
 
 Zones qui auront le même nombre, quoi qu'il arrive (à cause de l'impossibilité de mettre des carrés noirs)
 
-![[Pasted image 20240714115049.png]]
+![](img/ideas/Pasted image 20240714115049.png)
 
 # Palindromes
 
@@ -600,7 +887,7 @@ donc
 
 D'après le solver d'Antoine
 
-![[Pasted image 20240714134406.png]]
+![](img/ideas/Pasted image 20240714134406.png)
 
 possibilités noires ligne 8 : 0 4 7 10 => 1 5 8 11
 donc cases blanches : 2 3 4 6 7 9 10
@@ -608,7 +895,9 @@ donc cases blanches : 2 3 4 6 7 9 10
 - soit ça : (cases noires : 1 / 5 / 11)
 161 989
 13731 37973
-![[Pasted image 20240714135032.png]]
+
+
+![](img/ideas/Pasted image 20240714135032.png)
 
 
 
