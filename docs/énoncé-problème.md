@@ -10,6 +10,8 @@ Each row has been supplied with a clue. _Every_ number formed by concatenating c
 
 The answer to this month’s puzzle is the sum of all the numbers formed in the completed grid. (As in the example.)
 
+source: <https://www.janestreet.com/puzzles/number-cross-4-index/>
+
 ## Grille + exemple
 
 ![[number-cross-4-updated.png]]
