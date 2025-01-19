@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be651e0c-1fe9-4717-ac74-810d8ad5c77b" name="Changes" comment="chore: change folder structure &amp; move files">
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/1-square.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/10-multiple-88.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/11-one-less-than-palindrome.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/2-one-more-than-palindrome.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/3-prime-raised-to-prime-power.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/4-sum-digits-is-seven.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/5-fibonacci.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/6-square.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/7-multiple-37.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/8-multiple-23-palindrome.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/black-cells/9-product-digits-ends-with-one.md" afterDir="false" />
+    <list default="true" id="be651e0c-1fe9-4717-ac74-810d8ad5c77b" name="Changes" comment="chore: update img">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/carrés-noirs.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/black-cells/misc.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/état-actuel.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/état-actuel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/current-grid-with-numbers.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/current-grid-with-numbers.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +79,7 @@
       <workItem from="1725714860120" duration="14530000" />
       <workItem from="1726436154011" duration="26000" />
       <workItem from="1736944319462" duration="1186000" />
-      <workItem from="1737294732838" duration="3878000" />
+      <workItem from="1737294732838" duration="5699000" />
     </task>
     <task id="LOCAL-00001" summary="feat: update proof file">
       <created>1725380553836</created>
@@ -148,7 +137,35 @@
       <option name="project" value="LOCAL" />
       <updated>1737296846196</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor: create black-cells folder">
+      <created>1737298801695</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737298801695</updated>
+    </task>
+    <task id="LOCAL-00010" summary="docs: update current state">
+      <created>1737298816204</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737298816204</updated>
+    </task>
+    <task id="LOCAL-00011" summary="docs: remove obsolete lead">
+      <created>1737298832573</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737298832573</updated>
+    </task>
+    <task id="LOCAL-00012" summary="chore: update img">
+      <created>1737298958789</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737298958789</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +188,10 @@
     <MESSAGE value="chore: update idea file" />
     <MESSAGE value="docs: remove old obsolete leads" />
     <MESSAGE value="chore: change folder structure &amp; move files" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: change folder structure &amp; move files" />
+    <MESSAGE value="refactor: create black-cells folder" />
+    <MESSAGE value="docs: update current state" />
+    <MESSAGE value="docs: remove obsolete lead" />
+    <MESSAGE value="chore: update img" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update img" />
   </component>
 </project>
