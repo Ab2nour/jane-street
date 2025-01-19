@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be651e0c-1fe9-4717-ac74-810d8ad5c77b" name="Changes" comment="feat: update proof file &amp; img">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jane Street.md" beforeDir="false" afterPath="$PROJECT_DIR$/Jane Street.md" afterDir="false" />
+    <list default="true" id="be651e0c-1fe9-4717-ac74-810d8ad5c77b" name="Changes" comment="docs: remove old obsolete leads">
+      <change afterPath="$PROJECT_DIR$/docs/carrés-noirs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/grille-annotée.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/énoncé-problème.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/état-actuel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jane Street old.md" beforeDir="false" afterPath="$PROJECT_DIR$/archive/Jane Street old.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jane Street.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fourre-tout.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/archive/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/archive/ab2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\docs" />
+      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\archive" />
       <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-7\5" />
       <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-7\7" />
       <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-1\8" />
-      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-1\4" />
-      <recent name="C:\Users\AB2-PC\Documents\GitHub\ab2\jane-street\img\cells\black-cells\line-1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +84,7 @@
       <workItem from="1725714860120" duration="14530000" />
       <workItem from="1726436154011" duration="26000" />
       <workItem from="1736944319462" duration="1186000" />
-      <workItem from="1737294732838" duration="928000" />
+      <workItem from="1737294732838" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="feat: update proof file">
       <created>1725380553836</created>
@@ -115,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1725743470963</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="chore: update idea file">
+      <created>1737295960639</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737295960639</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docs: remove old obsolete leads">
+      <created>1737296001856</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737296001856</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +155,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: update proof file" />
     <MESSAGE value="feat: update proof file &amp; img" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update proof file &amp; img" />
+    <MESSAGE value="chore: update idea file" />
+    <MESSAGE value="docs: remove old obsolete leads" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: remove old obsolete leads" />
   </component>
 </project>
