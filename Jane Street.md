@@ -1,4 +1,4 @@
-.# Problème original
+# Problème original
 
 ## Énoncé
 
@@ -36,6 +36,11 @@ The answer to this month’s puzzle is the sum of all the numbers formed in the 
 ## Avec chiffres
 
 ![img.png](img/img_1.png)
+
+## Pistes
+
+- 1,4 et 1,8 car il n'y a aucun carré qui a 2 ou 3 fois le même chiffre de longueur 2 ou 3 respectivement
+- Regarder 6,3 6,4 6,8 et 6,9
 
 # Carrés noirs
 
@@ -837,10 +842,6 @@ Zones qui auront le même nombre, quoi qu'il arrive (à cause de l'impossibilit�
 
 ![](img/ideas/Pasted image 20240714115049.png)
 
-# Palindromes
-
-
-
 # Random
 
 vu qu'il y a 4 carrés noirs max il y a 4 chiffres max à trouver par ligne non ?
@@ -915,24 +916,3 @@ donc
 
 donc
 2 3 4 9 10
-
-# Cases forcément blanches
-
-D'après le solver d'Antoine
-
-![](img/ideas/Pasted image 20240714134406.png)
-
-possibilités noires ligne 8 : 0 4 7 10 => 1 5 8 11
-donc cases blanches : 2 3 4 6 7 9 10
-
-- soit ça : (cases noires : 1 / 5 / 11)
-161 989
-13731 37973
-
-
-![](img/ideas/Pasted image 20240714135032.png)
-
-
-
-- soit la case 7:
-autres possibilités (voir solver)
