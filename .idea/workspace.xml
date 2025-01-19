@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be651e0c-1fe9-4717-ac74-810d8ad5c77b" name="Changes" comment="feat: update proof file &amp; img">
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/5/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/6/todo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/7/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cells/black-cells/line-7/7/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nombre_premiers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jane Street.md" beforeDir="false" afterPath="$PROJECT_DIR$/Jane Street.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/print_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/print_numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/AB2-PC/Documents/GitHub/ab2/france-ioi&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AB2-PC/Documents/GitHub/ab2/kickstarter-project-analysis&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -81,7 +75,10 @@
       <workItem from="1725372230737" duration="10783000" />
       <workItem from="1725470578936" duration="21000" />
       <workItem from="1725662967673" duration="6215000" />
-      <workItem from="1725714860120" duration="14457000" />
+      <workItem from="1725714860120" duration="14530000" />
+      <workItem from="1726436154011" duration="26000" />
+      <workItem from="1736944319462" duration="1186000" />
+      <workItem from="1737294732838" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="feat: update proof file">
       <created>1725380553836</created>
@@ -111,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725743448588</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: update proof file &amp; img">
+      <created>1725743470963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725743470963</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
