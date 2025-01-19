@@ -111,12 +111,3 @@ DONC
 - soit (10, 4) est blanche
 - soit (10, 4) et (10, 1) sont noires, et les cases vertes contiennent 88
 ![[Pasted image 20240714182556.png]]
-
-
-## Case (10, 7)
-
-Cette case est-elle noire ? 
-
-![[Pasted image 20240714181848.png]]
-
-S'il n'existe aucun multiple de 88 finissant par 3 fois le même nombre, de longueur 5 ou 6, alors cette case ne peut pas être noire.
